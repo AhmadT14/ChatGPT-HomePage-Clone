@@ -1,0 +1,87 @@
+a:hover{
+    background-color: #DADADA;
+}
+header {
+  height:1px;
+}
+.header1 {
+  display: flex;
+}
+ul{
+  list-style: none;
+  padding: 0px;
+}
+li{
+  margin: 10px;
+}
+.header2{
+  float:left;
+  cursor: pointer;
+}
+.h1 {
+  text-align: center;
+}
+.image{
+  float: right;
+}
+.container {
+  margin-top: 300px;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.search_bar {
+  width: 750px;
+  height: 90px;
+  border-radius: 25px;
+  padding: 5px;
+  background-color: #f3f3f3;
+}
+button{
+  background-color: white;
+  border: 0px solid white;
+}
+.chat{
+  margin-top: 3px;
+}
+input {
+  height: 40px;
+  width: 98%;
+  outline: none;
+  border: 0px solid white;
+  margin: 5px;
+  background-color: #f3f3f3;
+}
+input::placeholder{
+    font-size: medium;
+}
+.attachment {
+  width: 24px;
+  height: 24px;
+}
+.up-arrow {
+  width: 32px;
+  height: 32px;
+  float: right;
+  border: 1px solid beige;
+  border-radius: 20px;
+}
+.aatt{
+    padding: 3px;
+    display: inline-block;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.aatt:hover{
+    background-color: #DADADA;
+}
+.left {
+  margin: 5px;
+}
+footer {
+  color: #959595;
+  font-weight: 100;
+  font-size: smaller;
+  margin-top: 440px;
+  text-align: center;
+}
